@@ -34,7 +34,7 @@
                       </div>
                       <p> Area: <span id="triangle-area"></span><span>cm<sup>2</sup></span></p>
                       <div class="card-actions">
-                        <button class="btn btn-primary w-full" onclick="triangleAreaCalculate()">Buy Now</button>
+                        <button class="btn btn-primary w-full" onclick="triangleAreaCalculate()">Calculate</button>
                       </div>
                     </div>
                   </div>
@@ -42,15 +42,19 @@
                     <figure><img src="images/rectangle.png" alt="rectangle" /></figure>
                     <div class="card-body">
                       <h2 class="text-center font-extrabold">Rectangle</h2>
-                      <p class="text-center">Area (A) = 0.5 X b X h</p>
+                      <p class="text-center">Area (A) = w X l</p>
                       <div>
-                        <input type="text" name="" id="" placeholder="b" class="w-2/5 p-1">
+                        <input type="text" name="" id="rectangle-width-input" placeholder="w" class="w-2/5 p-1">
                         <span>cm</span>
-                        <input type="text" name="" id="" placeholder="h" class="w-2/5 p-1 ml-1">
+                        <input type="text" name="" id="rectangle-length-input" placeholder="l" class="w-2/5 p-1 ml-1">
                         <span>cm</span>
+
+                        
                       </div>
+                      <p> Area: <span id="rectangle-area"></span><span>cm<sup>2</sup></span></p>
+
                       <div class="card-actions ">
-                        <button class="btn btn-primary w-full">Buy Now</button>
+                        <button class="btn btn-primary w-full" onclick="rectangleAreaCalculate()">Calculate</button>
                       </div>
                     </div>
                   </div>
