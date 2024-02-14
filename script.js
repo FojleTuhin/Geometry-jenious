@@ -25,8 +25,8 @@ function rectangleAreaCalculate(){
     const rectanglehight= parseFloat(rectangleightValue);
 
     const rectangleArea= width*rectanglehight;
-    console.log(rectangleArea)
+    console.log(rectangleArea);
 
     const rectangleAreaOutput= document.getElementById('rectangle-area');
-    rectangleAreaOutput=rectangleArea;
+    rectangleAreaOutput.innerText=rectangleArea;
 }
