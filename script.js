@@ -30,3 +30,22 @@ function rectangleAreaCalculate(){
     const rectangleAreaOutput= document.getElementById('rectangle-area');
     rectangleAreaOutput.innerText=rectangleArea;
 }
+
+function parallelogramAreaCalculate(){
+    const parallelogramBaseInput= document.getElementById("parallelogram-Base-Input");
+    const parallelogramBaseValue= parallelogramBaseInput.value;
+    const parallelogramBase= parseFloat(parallelogramBaseValue);
+
+
+    const parallelogramHightInput= document.getElementById('parallelogram-hight-Input');
+    const parallelogramHightValue= parallelogramHightInput.value;
+    const parallelogramHight= parseFloat(parallelogramHightValue);
+
+
+    const parallelogramArea= parallelogramBase*parallelogramHight;
+
+
+    const parallelogramAreaOutput= document.getElementById('parallelogram-area');
+    parallelogramAreaOutput.innerText=parallelogramArea;
+
+}
